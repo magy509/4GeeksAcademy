@@ -1,0 +1,108 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: María Gracia
+    last_name: Hidalgo Sulbarán
+    
+    # Define yourself in 4-5 words
+    motto: Teaching is learning twice
+    
+    # Focus
+    focus: Still figuring that out
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a data analyst and developer with over 10 years of experience designing and implementing scalable, optimized data solutions, primarily in the insurance industry. My expertise spans database management, data architecture, and process optimization, with a proven track record of enhancing system efficiency and performance.
+      
+      I recently completed a master’s degree in Statistics and Operations Research, specializing in machine learning and process optimization. For my capstone project, I developed classification models and information retrieval systems using Transformers and LLMs, gaining hands-on experience in advanced data analysis and machine learning techniques.
+      
+      I’m now eager to apply my deep expertise in data development, combined with my newly acquired machine learning skills, to support organizations in building adaptive, high-performing data systems. I thrive in collaborative, multidisciplinary environments and look forward to contributing to impactful data engineering projects that drive operational success and innovation.
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    #avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: hidalgosmg@gmail.com #optional
+    phone: 667 915 887 #optional
+    #website: asd.com #optional
+    linkedin: hidalgosmg #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: magy509
+    
+    twitter: 'magy509' #optional
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+    
+      - idiom: English
+        level: Fluent
+
+      - idiom: French
+        level: Basic
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: Cooking
+
+      - item: Hiking
+
+# Your previous education
+education:
+    - degree: MSc on Statistical Methods
+      university: University Santiago de Compostela
+      # optional
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023 - 2025
+      details: |
+        Statistics, Operations Research, Game Theory.
+        
+    - degree: BSc in Computer's Engineering
+      university: University Simón Bolívar
+      # optional
+      #university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2007 - 2011
+      details: |
+        Database Design and Administration, Information Systems, Operations Research
+        
+# Your previous job experiences or volunteer
+experiences:
+    - role: Technical Lead & Functional Analyst
+      time: 2017 - 2023
+      company: Allianz Argentina
+      # optional
+      #company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        - Led efforts in the optimization of queries and batch processes, improving data processing speed and ensuring real-time data availability for operational insights.
+        - Developed and deployed microservices and APIs, ensuring seamless data integration and scalable processing across systems for enhanced data analysis and insights.
+        - Designed and implemented scalable database models and data pipelines, enabling efficient data management and business intelligence reporting.
+        - Spearheaded the transition to a Three-tier architecture, enabling scalable data processing and improved system performance.
+        - Analyzed and optimized data flow and performance, identifying opportunities to improve database efficiency, leading to enhanced data processing and decision-making.
+        - Collaborated with cross-functional teams to translate business data requirements into technical solutions, driving data analysis and reporting for improved decision-making.
+        - Provided end-user support for critical data systems, ensuring data accuracy, system reliability, and actionable insights for decision-makers.
+        - Actively participated in the re-engineering of business processes to ensure data accessibility and usability, driving automation and improved workflows for more accurate analysis.
+
+skills:
+    toolset:
+      - name: PLSQL
+        level: 90%
+
+      - name: JavaScript & jQuery
+        level: 80%
